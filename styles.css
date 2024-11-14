@@ -34,6 +34,7 @@ body {
     width:40px;
     height:40px;
     padding:none;
+    border-radius:50%;
 
 }
 .home img{
@@ -142,9 +143,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 0;
     background-color: black;
     color: #fff;
+    position:fixed;
+    width:100%;
+    height:8%;
+    top:0;
 }
 
 /* Footer (Now Playing) */
@@ -180,7 +185,7 @@ footer.now-playing {
 }
 
 .user-profile img {
-    margin-left: 100px;
+    margin-right:0;
     width: 32px;
     height: 32px;
     border-radius: 50%;
