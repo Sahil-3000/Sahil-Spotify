@@ -22,6 +22,9 @@ body {
     display:flex;
     gap:15px;
 }
+.header-div{
+    width:auto;
+}
 .header-content {
     display: flex;
     justify-content: space-between;
@@ -87,7 +90,7 @@ body {
     /* margin-top: 64px; */
     margin-bottom: 0;
     position:fixed;
-    top:4%;
+    top:6%;
     gap:1%;
 }
 
@@ -149,8 +152,8 @@ header {
     background-color: black;
     color: #fff;
     position:fixed;
-    height:4%;
     top:0;
+    height:3%;
 }
 
 /* Footer (Now Playing) */
