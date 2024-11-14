@@ -139,7 +139,7 @@ main {
 
 /* Header */
 header {
-    width:100%;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -147,7 +147,7 @@ header {
     background-color: black;
     color: #fff;
     position:fixed;
-    width:100%;
+    width:vw;
     height:8%;
     top:0;
 }
@@ -175,7 +175,7 @@ footer.now-playing {
     border-radius: 20px;
     border: none;
     /* outline: none; */
-    background: url('search.jpg') no-repeat 10px center;
+    background: url('search.jpg') no-repeat 10px center 50%;
     background-size: 20px 20px;
     background-color: rgb(44, 42, 42);
     /* filter:invert(1);
