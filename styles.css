@@ -85,7 +85,8 @@ body {
     height:vh;
     padding:10px;
     /* margin-top: 64px; */
-    margin-bottom: 50px;
+    margin-bottom: 0;
+    margin-top:4%;
     gap:1%;
 }
 
@@ -139,7 +140,7 @@ main {
 
 /* Header */
 header {
-    width:100%;
+    width:auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -147,7 +148,7 @@ header {
     background-color: black;
     color: #fff;
     position:fixed;
-    height:5%;
+    height:4%;
     top:0;
 }
 
